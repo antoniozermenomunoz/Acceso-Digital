@@ -1,10 +1,11 @@
-import { Registrar } from "../Modules/Registrar/Registrar";
+import { RegistrarForm } from "../Modules/Autenticación/Components/RegistrarForm/RegistrarForm";
 
 function RegistrarPage() {
   return (
     <>
-      <Registrar />
+      <RegistrarForm />
     </>
   );
 }
+
 export { RegistrarPage };

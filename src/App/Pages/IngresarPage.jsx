@@ -1,10 +1,11 @@
-import { Ingresar } from "../Modules/Ingresar/Ingresar";
+import { IngresarForm } from "../Modules/Autenticación/Components/IngresarForm/IngresarForm";
 
 function IngresarPage() {
   return (
     <>
-      <Ingresar />
+      <IngresarForm />
     </>
   );
 }
+
 export { IngresarPage };

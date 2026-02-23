@@ -44,6 +44,7 @@ function IngresarForm() {
                     Correo
                   </label>
                   <input
+                    autoFocus
                     required
                     id="email"
                     type="email"

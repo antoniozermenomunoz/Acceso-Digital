@@ -2,7 +2,6 @@
   background-color: var(--PrimerColor);
   border-bottom: 4px solid var(--SegundoColor);
 }
-
 .header-akron .nav-link-akron {
   color: var(--TextoClaro) !important;
   font-weight: 600;
@@ -12,4 +11,17 @@
 }
 .header-akron .nav-link-akron:hover {
   color: var(--SegundoColor) !important;
+}
+.header-akron .btn-akron-outline {
+  background-color: transparent;
+  color: var(--TextoClaro);
+  border: 2px solid var(--TercerColor);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+.header-akron .btn-akron-outline:hover {
+  background-color: var(--SegundoColor);
+  border-color: var(--SegundoColor);
+  color: var(--TextoClaro);
 }
