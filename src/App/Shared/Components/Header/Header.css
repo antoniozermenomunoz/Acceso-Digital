@@ -1,0 +1,15 @@
+.header-akron .navbar {
+  background-color: var(--PrimerColor);
+  border-bottom: 4px solid var(--SegundoColor);
+}
+
+.header-akron .nav-link-akron {
+  color: var(--TextoClaro) !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+.header-akron .nav-link-akron:hover {
+  color: var(--SegundoColor) !important;
+}

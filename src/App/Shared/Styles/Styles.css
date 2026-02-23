@@ -1,0 +1,11 @@
+:root {
+  --PrimerColor: #145392;
+  --SegundoColor: #ef3025;
+  --TercerColor: #ffffff;
+  --TextoOscuro: #000000;
+  --TextoClaro: #ffffff;
+}
+html,
+body {
+  background-color: var(--TercerColor);
+}

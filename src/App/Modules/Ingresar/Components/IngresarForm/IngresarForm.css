@@ -1,0 +1,23 @@
+.form-akron-container {
+  border-top: 5px solid var(--SegundoColor) !important;
+  background-color: var(--TercerColor);
+  border-radius: 8px;
+}
+.input-akron:focus {
+  border-color: var(--PrimerColor);
+  box-shadow: 0 0 0 0.25rem rgba(20, 83, 146, 0.25);
+}
+.btn-akron {
+  background-color: var(--PrimerColor);
+  color: var(--TextoClaro);
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.btn-akron:hover {
+  background-color: var(--SegundoColor);
+  color: var(--TextoClaro);
+}
+.btn-akron:disabled {
+  background-color: #6c757d;
+  opacity: 0.8;
+}
