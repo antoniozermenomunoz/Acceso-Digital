@@ -57,6 +57,11 @@ function Header() {
               ) : (
                 <>
                   <li className="nav-item mx-1">
+                    <Link className="nav-link nav-link-akron" to="/Menu">
+                      Menu
+                    </Link>
+                  </li>
+                  <li className="nav-item mx-1">
                     <span className="nav-link nav-link-akron">
                       Hola, {user?.name}
                     </span>

@@ -1,0 +1,35 @@
+.card-akron {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border-bottom: 4px solid transparent !important;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-akron:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+  border-bottom: 4px solid var(--SegundoColor) !important;
+}
+
+.title-akron {
+  color: var(--PrimerColor);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.card-akron:hover .title-akron {
+  color: var(--SegundoColor);
+}
+.product-img-akron {
+  max-height: 180px;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+}
+.card-akron:hover .product-img-akron {
+  transform: scale(1.08);
+}

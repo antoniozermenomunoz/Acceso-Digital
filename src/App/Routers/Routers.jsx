@@ -5,6 +5,7 @@ import { IngresarPage } from "../Pages/IngresarPage";
 import { RegistrarPage } from "../Pages/RegistrarPage";
 import { AppLayout } from "../layouts/AppLayout";
 import { HomePage } from "../Pages/HomePage";
+import { MenuPage } from "../Pages/MenuPage";
 
 function Routers() {
   return (
@@ -14,6 +15,7 @@ function Routers() {
           <Routes>
             <Route element={<AppLayout />}>
               <Route path="/" element={<HomePage />} />
+              <Route path="/Menu" element={<MenuPage />} />
               <Route path="/Ingresar" element={<IngresarPage />} />
               <Route path="/Registrar" element={<RegistrarPage />} />
               <Route path="*" element={<NotFoundPage />} />
